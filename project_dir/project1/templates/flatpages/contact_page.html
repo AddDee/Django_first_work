@@ -1,0 +1,20 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h2>My contacts:</h2>
+    <p>- - - - - -&nbsp;</p>
+{{ flatpage.content }}
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p><s><span style="font-size:13px">want to check "Example" page - login as admin</span></s></p>
+
+{% endblock content %}
